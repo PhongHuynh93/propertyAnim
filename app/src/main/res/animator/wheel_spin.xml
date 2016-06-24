@@ -1,0 +1,15 @@
+<!--accelerate_decelerate_interpolator: tăng tốc lúc đầu và giảm tốc lúc cuói-->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+	android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+	android:ordering="sequentially" >
+
+	<!--TODO 5 anim wheel turning, make it turn, trng 3s sẽ turn cái bánh xe 180 dộ, sau đó reverse lại với repeat infinite-->
+	<objectAnimator
+		android:duration="3000"
+		android:propertyName="rotation"
+		android:repeatCount="infinite"
+		android:repeatMode="reverse"
+		android:valueTo="180"
+		android:valueType="floatType" />
+
+</set>

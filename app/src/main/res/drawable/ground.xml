@@ -1,0 +1,8 @@
+<!--TODO 2 tạo ground là HCN màu xanh-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:dither="true"
+	android:shape="rectangle" >
+
+	<solid android:color="#339933" />
+
+</shape>

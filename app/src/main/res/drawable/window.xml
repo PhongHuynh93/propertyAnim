@@ -1,0 +1,11 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle" >
+	<!--TODO 3 day la mau nen, cho ta sd RelativeLayout ko co z-index nen ta phai lam no trong suot-->
+	<solid android:color="#00000000" />
+
+	<!--cai vien mau xam no se che mat troi-->
+	<stroke
+		android:width="40dp"
+		android:color="#cccccc" />
+
+</shape>
